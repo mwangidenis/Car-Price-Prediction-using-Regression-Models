@@ -1,8 +1,8 @@
 # Car-Price-Prediction-using-Regression-Models
 
-# 🚗 Car Price Prediction using Regression Models
+#  Car Price Prediction using Regression Models
 
-## 📌 Project Overview
+##  Project Overview
 This project analyzes a dataset of used cars to **predict selling prices** using different regression techniques.  
 We compare multiple models including **Linear Regression, Lasso, Ridge, and Polynomial Regression** to determine which performs best.  
 
@@ -16,7 +16,7 @@ The dataset includes details such as:
 
 ---
 
-## ⚙️ Models Implemented
+##  Models Implemented
 1. **Linear Regression**  
    - Baseline model.  
    - Easy to interpret but struggles with correlated features.  
@@ -36,24 +36,24 @@ The dataset includes details such as:
 
 ---
 
-## 📊 Evaluation Metrics
+##  Evaluation Metrics
 We used the following metrics to compare models:
 - **R² Score** → Explains how much variance in target is explained by the model. Higher is better.  
 - **Mean Squared Error (MSE)** → Measures prediction error. Lower is better.  
 
 ---
 
-## 🔍 Key Findings
+##  Key Findings
 - **Linear Regression**: Simple but not robust.  
 - **Lasso Regression**: Similar to Linear but removed some less important features.  
 - **Ridge Regression**: Best balance between bias and variance.  
 - **Polynomial Regression**: Sometimes improved accuracy but at risk of overfitting.  
 
-✅ **Ridge Regression with tuned alpha was the most reliable model.**
+ **Ridge Regression with tuned alpha was the most reliable model.**
 
 ---
 
-## 📈 Visualizations
+##  Visualizations
 The project includes visualizations for:
 - Histogram of selling prices  
 - Scatter plot of car age vs price  
@@ -62,7 +62,7 @@ The project includes visualizations for:
 
 ---
 
-## 🚀 Next Steps
+##  Next Steps
 To further improve predictions:
 1. Feature Engineering (e.g., depreciation rate, brand popularity).  
 2. Hyperparameter tuning with **GridSearchCV**.  
@@ -71,36 +71,23 @@ To further improve predictions:
 
 ---
 
-## 🛠️ Tech Stack
-- Python 🐍  
+##  Tech Stack
+- Python   
 - Pandas, NumPy for data processing  
 - Matplotlib, Seaborn for visualization  
 - Scikit-learn for regression models  
 
 ---
 
-## 📂 Project Structure
-```
 
-📦 car-price-prediction
-┣ 📜 cleaned\_cars.csv   # Dataset after cleaning
-┣ 📜 car\_price\_prediction.ipynb   # Main analysis notebook
-┣ 📜 README.md          # Project documentation
-
-
-```
-
-
----
-
-## 📌 Conclusion
+##  Conclusion
 This project shows how different regression models perform on a real-world dataset.  
 While **Polynomial Regression** can capture nonlinearity, **Ridge Regression** was the most balanced and reliable choice.  
 
-🔮 Future work: Explore **tree-based models** for better accuracy.  
+ Future work: Explore **tree-based models** for better accuracy.  
 
 ---
 ```
 
----
+
 
